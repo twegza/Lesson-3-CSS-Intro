@@ -1,0 +1,27 @@
+/* Normal Single Elements */
+h1 {
+    color: chocolate;
+}
+h2 {
+   color: aqua;
+}
+h3 {
+   color: aqua;
+}
+
+.container{
+    background-color: red;
+}
+
+/* CSS Grouping Part */
+
+h1, h2, h3 {
+    color: red;
+}
+
+/* CSS Specificity Part */
+
+html body div.container h1{
+    color: red;
+} 
+
